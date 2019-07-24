@@ -1,12 +1,11 @@
 Package: recharge
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Recharge tools
 Version: 0.0.1
 Author: Jonathan Kennel
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Maintainer: Jonathan Kennel <jkennel@uoguelph.ca>
+Description: Recharge tools for r
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
 Imports: 
