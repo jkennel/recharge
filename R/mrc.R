@@ -82,12 +82,12 @@ mrc <- function(x,
 # library(data.table)
 # library(roll)
 # library(recharge)
+# library(usethis)
 # fn <- "/media/kennel/Data/tmp/EMR_input.(mNW95sampledata).csv"
 # z  <- fread(fn)
 # setnames(z, c('datetime', 'val', 'precip'))
 #
-#
 # tmp <- mrc(x=z)
-# plot(mean_val~slope, tmp[slope < maxslope],
+# plot(mean_val~slope, tmp[slope < 0.2],
 #      pch = 20)
 
