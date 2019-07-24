@@ -4,12 +4,21 @@
 \alias{mrc}
 \title{mrc}
 \usage{
-mrc(x, time_var = "datetime", precip_var = "precip", n = 48,
-  lag = 48, cutoff = 0.01)
+mrc(x, time_var = "datetime", precip_var = "precip", wl_var = "wl",
+  n = 48, lag = 48, cutoff = 0.01)
 }
 \arguments{
-\item{lag}{A vector of positive integers. Each specified column will be
-lagged for each value in the vector.}
+\item{x}{data}
+
+\item{time_var}{name of time col}
+
+\item{wl_var}{name of water level col}
+
+\item{n}{number of values in regression}
+
+\item{lag}{lag}
+
+\item{cutoff}{cutoff}
 }
 \value{
 data.table with mrc

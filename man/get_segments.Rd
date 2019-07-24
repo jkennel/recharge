@@ -4,12 +4,14 @@
 \alias{get_segments}
 \title{get_segments}
 \usage{
-get_segments(x, time_var = "datetime", n = 48)
+get_segments(x, time_var = "datetime", wl_var = "wl", n = 48)
 }
 \arguments{
 \item{x}{data}
 
 \item{time_var}{name of time col}
+
+\item{wl_var}{name of water level col}
 
 \item{n}{number of values in regression}
 }
